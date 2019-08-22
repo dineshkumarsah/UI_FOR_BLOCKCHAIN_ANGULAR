@@ -1,0 +1,84 @@
+
+.topnav{
+  overflow: hidden;
+  background-color: white;
+   margin-top: 20px;
+   border-radius: 10px;
+    height: 61px;
+}
+#dk{
+letter-spacing: 2px;
+font-size: 23px;
+color: white;
+padding-top: 167px;
+}
+ .bc{
+    margin: -3px -20px;
+ }
+ #p1{
+   padding-left: 617px;
+   margin-top: 107px;
+ }
+ .topnav a{
+   float: right;
+   text-decoration: none;
+   margin-top: 20px;
+   margin-right: 10px;
+   /*float: right;*/
+ }
+ .topnav a:hover{
+   background-color: thistle;
+ }
+ .topnav img{
+  margin: 8px -119px 7px 18px;
+ }
+ #text1{
+  margin-top: -317px;
+   padding-left: 45px;
+ }
+ #text1 h3{
+  letter-spacing: 1px;
+  font-size: 47px;
+  color: #efedeabf;
+ }
+ #text1 p{
+  letter-spacing: 18px;
+  font-size: 46px;
+  color: white;
+ }
+ .logo{
+  padding-left: -32px;
+   margin-top: 259px;
+ }
+ #p7{
+  margin: 26px 304px 32px;
+  font-size: 38px;
+ }
+ #vew a{
+  text-align: center;
+   border: 1px solid black;
+    padding: 10px 10px;
+   border-radius: 15px;
+ }
+ #vew{
+   align-self: auto;
+   
+   padding-top: 22px;
+   padding-left: 392px;
+ }
+ #head{
+  margin: 128px 475px 10px;
+ }
+ #head p{
+  font-size: 45px;
+  color: white;
+  letter-spacing: 6px;
+ }
+ .info{
+  color: white;
+  font-size: 20px;
+ }
+ .trends{
+     padding: 10px 10px 10px;
+ }
+ 
