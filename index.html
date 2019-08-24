@@ -35,6 +35,13 @@
   min-height: 700px;
   background-size: cover;
 }
+a:hover{
+          color:blue !important;
+        }
+        .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
        
     </style>
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -258,14 +265,14 @@
                  </p>
                </div>
                <div class="col-md-6" class="form-group" style="text-align: center;  padding-right:53px;">
-                 <form action="" style="background: white;">
+                 <form action="" name="myForm" style="background: white; padding: 10px;" onsubmit="return validateForm()">
                  <h3>Contact Us</h3>
                  <p>How can we help you</p><br/>
-                 <input type="text" placeholder="Your Nme" class="form-control"><br/>
+                 <input type="text" name="name" placeholder="Your Nme" class="form-control"><br/>
                  <input type="text" placeholder="Email Address" class="form-control"><br/>
                  <input type="text" placeholder="Company" class="form-control"><br/>
                  <input type="text" placeholder="Your Subject" class="form-control"><br/>
-                 <textarea name=""   placeholder="message" class="form-control"></textarea>
+                 <textarea name=""   placeholder="message" class="form-control"></textarea><br/>
                 <button type="submit">submit</button>
                 </form>
                </div>
@@ -285,6 +292,34 @@
            <!--footer end  here-->
         </div>
     </body>
+    <script>
+      function validateForm() 
+      {
+        
+        var x = document.forms["myForm"]["name"].value;
+        var letters = /^[A-Za-z]+$/;
+        
+       
+        if (x== "")
+         {
+            alert("Name must be filled out");
+            return false;
+          }
+          else{
+          
+           if(x.match(letters)){}
+           
+            else
+            alert('name should be character');
+            return true;
+          
+          }
+          
+         
+       }
+      
+
+     </script>
  </html>
  
 
